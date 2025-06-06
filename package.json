@@ -1,1 +1,20 @@
 
+{
+  "name": "container-tracker",
+  "version": "1.0.0",
+  "description": "Container tracking app with drag-and-drop and OCR scanning",
+  "scripts": {
+    "build": "mkdir -p build && cp index.html build/",
+    "start": "npx serve -s build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "tesseract.js": "^5.1.0"
+  },
+  "devDependencies": {
+    "serve": "^14.2.3"
+  }
+}
